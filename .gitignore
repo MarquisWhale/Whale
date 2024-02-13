@@ -3,3 +3,6 @@
 
 # Extensions
 .pylintrc
+
+# Additionals
+README

@@ -6,14 +6,17 @@
 </head>
 <body>
     <header>
-        <!-- Шапка сайта -->
-        <h1>Название сайта</h1>
-        <nav>
-            <!-- Навигационное меню -->
-        </nav>
         <div>
-            <!-- Форма входа -->
+            <h1>Название сайта</h1>
         </div>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home' %}">Главная</a></li>
+                <li><a href="{% url 'catalog' %}">Каталог</a></li>
+                <li><a href="{% url 'about' %}">О нас</a></li>
+                <li><a href="{% url 'register' %}">Зарегистрироваться</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -23,11 +26,18 @@
     </main>
 
     <footer>
-        <!-- Подвал сайта -->
         <div>
-            <p>Контактная информация</p>
-            <p>Почта</p>
-            <!-- Другая информация -->
+            <h3>Информация</h3>
+            <ul>
+                <li><a href="{% url 'agreement' %}">Соглашение</a></li>
+                <li><a href="{% url 'partners' %}">Партнёры</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Контакты</h3>
+            <p>Информация для связи</p>
+            <p>Лицензия</p>
+            <p>Почта разработчика: developer@example.com</p>
         </div>
     </footer>
 </body>
