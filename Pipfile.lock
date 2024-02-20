@@ -1,10 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0b5823de65ff0f5100b8f0fd7642f5000e8f2788c925cc51afe587d419e35515"
+            "sha256": "7b3174e309a53b6b4892c26fbf82a08e69eb1691478c8c90159f8ec1ae225514"
         },
         "pipfile-spec": 6,
         "requires": {
+            "python_full_version": "3.12.2",
             "python_version": "3.12"
         },
         "sources": [
@@ -32,6 +33,15 @@
             "index": "pypi",
             "markers": "python_version >= '3.10'",
             "version": "==5.0.2"
+        },
+        "pip": {
+            "hashes": [
+                "sha256:ba0d021a166865d2265246961bec0152ff124de910c5cc39f1156ce3fa7c69dc",
+                "sha256:ea9bd1a847e8c5774a5777bb398c19e80bcd4e2aa16a4b301b718fe6f593aba2"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.7'",
+            "version": "==24.0"
         },
         "sqlparse": {
             "hashes": [
